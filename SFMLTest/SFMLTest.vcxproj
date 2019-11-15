@@ -126,10 +126,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Food.cpp" />
+    <ClCompile Include="SnakeGameMain.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Ball.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Food.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

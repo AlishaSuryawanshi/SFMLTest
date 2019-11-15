@@ -7,7 +7,7 @@
 
 // Ball cannot go out of screen change to opposite direction
 
-int main()
+int vmain()
 {
 	sf::RenderWindow* window = new sf::RenderWindow(sf::VideoMode(600, 600), "My window");
 	int X,Y;

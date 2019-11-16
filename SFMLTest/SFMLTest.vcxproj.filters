@@ -24,14 +24,29 @@
     <ClCompile Include="Food.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="PlayerController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="Ball.png">
+    <Image Include="Background.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="BodyTexture.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="SnakeHead.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Food0.png">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Food.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

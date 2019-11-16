@@ -127,14 +127,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Food.cpp" />
+    <ClCompile Include="PlayerController.cpp" />
     <ClCompile Include="SnakeGameMain.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="Ball.png" />
+    <Image Include="Background.png" />
+    <Image Include="BodyTexture.png" />
+    <Image Include="Food0.png" />
+    <Image Include="SnakeHead.png" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Food.h" />
+    <ClInclude Include="PlayerController.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

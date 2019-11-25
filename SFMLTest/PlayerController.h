@@ -1,6 +1,10 @@
 #pragma once
 #include<vector>
+#include <SFML/Window.hpp>
+#include<SFML/Graphics.hpp>
+#include<SFML/Main.hpp>
 #include<SFML/System.hpp>
+#include<queue>
 
 class PlayerController
 {
@@ -9,11 +13,11 @@ class PlayerController
 public:
 	PlayerController();
 	
-	std::vector<sf::Vector2f> Positions;
+	std::vector<sf::Sprite> BodySprites;
 	int GetLives();
 	void GetDamage();
-
-	void UpdatePositions(sf::Vector2f HeadPosition);
+	void AddFood(sf::Texture*);
+	void UpdatePositions(sf::Vector2f);
 
 };
 

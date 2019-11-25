@@ -135,6 +135,7 @@
     <Image Include="Background.png" />
     <Image Include="BodyTexture.png" />
     <Image Include="Food0.png" />
+    <Image Include="score.png" />
     <Image Include="SnakeHead.png" />
   </ItemGroup>
   <ItemGroup>

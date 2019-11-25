@@ -41,6 +41,9 @@
     <Image Include="Food0.png">
       <Filter>Resource Files</Filter>
     </Image>
+    <Image Include="score.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Food.h">
